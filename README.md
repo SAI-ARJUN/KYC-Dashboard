@@ -45,10 +45,9 @@ This project recreates the provided KYC dashboard UI while demonstrating **compo
 
 ## 📂 Project Structure
 kyc-dashboard/
-│
 ├── app/
 │   ├── api/
-│   │   └── data/route.ts           # Mock API endpoint returning dashboard data
+│   │   └── data/route.ts       # Mock API endpoint returning dashboard data
 │   ├── components/
 │   │   ├── Sidebar.tsx
 │   │   ├── Navbar.tsx
@@ -60,11 +59,10 @@ kyc-dashboard/
 │   │   ├── Categories.tsx
 │   │   ├── CircularChartCard.tsx
 │   │   └── PanStats.tsx
-│   └── page.tsx                    # Main dashboard page
-│
-├── public/                         # Static assets
+│   └── page.tsx                # Main dashboard page
+├── public/                      # Static assets
 ├── styles/
-│   └── globals.css                  # Tailwind + custom global styles
+│   └── globals.css              # Tailwind + custom global styles
 ├── package.json
 ├── tailwind.config.js
 └── README.md
