@@ -46,8 +46,6 @@ This project recreates the provided KYC dashboard UI while demonstrating **compo
 ## 📂 Project Structure
 kyc-dashboard/
 │
-kyc-dashboard/
-│
 ├── app/
 │   ├── api/
 │   │   └── data/route.ts           # Mock API endpoint returning dashboard data
@@ -70,3 +68,4 @@ kyc-dashboard/
 ├── package.json
 ├── tailwind.config.js
 └── README.md
+
